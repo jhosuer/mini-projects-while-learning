@@ -1,0 +1,153 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/*
+h2 > p {
+	color: pruple;
+}
+
+h2 + p {
+	color: orange;
+}
+
+*/
+/*body {
+	margin: 0px;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin: 10px 0px 10px 0px;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}*/
+
+h1 {
+	color: #63A1E6;
+	text-align: center;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	font-family: fantasy;
+}
+#head {
+	width: 120px;
+	height: 85px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	background-color: #63A1E6;
+	position: relative;
+	transition: all 1s ease;
+}
+
+#head:hover {
+	transform: scaleX(1.5);
+}
+
+#leftEye {
+	width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	border-radius: 100%;
+}
+
+#rightEye {
+	width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left: 85px;
+	border-radius: 100%;
+}
+
+#body {
+	width: 120px;
+	height: 120px;
+	background-color: #63A1E6;
+	position: relative;
+	top: 90px;
+	right: 120px;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+}
+
+#leftHand {
+	width: 20px;
+	height: 90px;
+	background-color: #63A1E6;
+	position: relative;
+	top: 92px;
+	right: 270px;
+	border-radius: 20px;
+	transition: all 1s ease;
+}
+#leftHand:hover {
+	transform: skewX(-20deg);
+}
+
+#rightHand {
+	width: 20px;
+	height: 90px;
+	background-color: #63A1E6;
+	position: relative;
+	top: 92px;
+	right: 130px;
+	border-radius: 20px;
+	transition: all 1s ease;
+}
+#rightHand:hover {
+	transform: skewX(20deg);
+}
+
+#leftLeg {
+	width: 20px;
+	height: 60px;
+	background-color: #63A1E6;
+	position: relative;
+	top: 190px;
+	right: 250px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	transition: all 1s ease;
+}
+
+#leftLeg:hover {
+	transform: skewX(-20deg);
+}
+
+#rightLeg {
+	width: 20px;
+	height: 60px;
+	background-color: #63A1E6;
+	position: relative;
+	top: 190px;
+	right: 230px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	transition: all 1s ease;
+}
+
+#rightLeg:hover {
+	transform: skewX(20deg);
+}
