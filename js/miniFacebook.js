@@ -13,7 +13,7 @@ let user = {
 	} 
 }
 
-let database = [user];
+let database = [user.user1,user.user2,user.user3];
 
 let newsfeed = [
 {username: 'gbenga', timeline: 'so tired from all that learning'},
@@ -22,23 +22,17 @@ let newsfeed = [
 
 ];
 
-// let userName = prompt('what is your username?');
-// let passWord = prompt('what is your password?');
+let userName = prompt('what is your username?');
+let passWord = prompt('what is your password?');
 
-// function signIn(user,pass) {
-// 	if((user === userName) && (pass == passWord)) {
-// 		console.log(newsfeed);
-// 	} else {
-// 		console.dir('username or password is Incorrect');
-// 	}
-// }
-
-// signIn(user.user1.username,user.user1.password);
-
-for(let res in user) {
-	if((user === userName) && (pass == passWord)) {
-		console.log(newsfeed);
-	} else {
-		console.dir('username or password is Incorrect');
+function signIn() {
+	for(let res of database) {
+		if((res.username === userName) && (res.password == passWord)) {
+			return newsfeed;
+		}
 	}
+	return `username or password is Incorrect`;
 }
+
+console.log(signIn());
+
