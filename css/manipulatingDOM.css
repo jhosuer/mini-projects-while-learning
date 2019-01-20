@@ -1,0 +1,26 @@
+.text {
+	text-shadow: 2px 2px 0px red;
+}
+
+.p {
+	color: green;
+}
+
+input {
+	width: 300px;
+	height: 60px;
+	border-radius: 10px;
+	outline: none;
+	border: 0.1 solid;
+	padding-left: 10px;
+}
+
+button {
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #225a78;
+}
